@@ -8,10 +8,13 @@ import { Hero } from '../hero';
 })
 export class HeroDetailComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit(): void {
+    
   }
+ 
 
 @Input()hero:Hero;
 

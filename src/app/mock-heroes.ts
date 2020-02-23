@@ -4,7 +4,7 @@ export const HEROES:Hero[]=
 [
     {id:11,name:'Dr Nice'},
     {id:12,name:'Diksha'},
-    {id:13,name:'Rana'},
+    {id:13,name:'Mahak'},
     {id:14,name:'Duggu'},
     {id:15,name:'Anannya'},
     {id:16,name:'Mangal'},
@@ -12,5 +12,6 @@ export const HEROES:Hero[]=
     {id:18,name:'Gunnu'},
     {id:19,name:'Soumya'},
     {id:20,name:'Rahul'},
-    {id:20,name:'GunGUN'}
+    {id:20,name:'GunGUN'},
+    {id:21,name:'Bittu Badaun'},   
 ];

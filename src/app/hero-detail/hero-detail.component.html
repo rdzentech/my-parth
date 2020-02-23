@@ -1,11 +1,19 @@
 <p>hero-detail works!</p>
 <div *ngIf="hero">
+
     <h2> {{hero.name|uppercase}} details</h2>
-    <div><span>id: </span> {{hero.id}}</div>
+
     <div>
-        <label>name:
+        <label>Change Your Name : 
             <input [(ngModel)]="hero.name" placeholder="name"/>
     
         </label>
     </div>
+    
+    <div>      
+        <img class="goldieleft" src="assets/images/{{hero.id}}.jpeg" >
+    
+    </div>
+    
+   
     </div>
