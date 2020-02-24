@@ -1,11 +1,12 @@
-<p>hero-detail works!</p>
-<div *ngIf="hero">
 
+<div *ngIf="hero">
+    <h3>ROTATE YOUR HERO </h3>
     <h2> {{hero.name|uppercase}} details</h2>
 
-    <div>
-        <label>Change Your Name : 
-            <input [(ngModel)]="hero.name" placeholder="name"/>
+    <div class="mr">
+        <label class="mr">
+            <b>Change  Name : </b>
+            <input  [(ngModel)]="hero.name" placeholder="name"/>
     
         </label>
     </div>
