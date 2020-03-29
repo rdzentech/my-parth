@@ -27,6 +27,20 @@ nav a.active {
   color: #039be5;
 }
 
+.module {
+  padding: 15px;
+  text-align: center;
+  color: #eee;
+  max-height: 150px;
+  min-width: 120px;
+  background-color: #607d8b;
+  border-radius: 2px;
+}
+.module:hover {
+  background-color: rgb(201, 198, 198);
+  cursor: pointer;
+  color: #646b6e;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
