@@ -13,4 +13,8 @@ export class HeroService {
     return HEROES;
   }
 
+  getHero(id:number):Hero{
+    return HEROES.find(x=>x.id==id);
+  }
+
 }

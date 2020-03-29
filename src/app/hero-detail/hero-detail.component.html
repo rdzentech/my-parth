@@ -1,20 +1,10 @@
-
 <div *ngIf="hero">
-    <h3>ROTATE YOUR HERO </h3>
-    <h2> {{hero.name|uppercase}} details</h2>
-
-    <div class="mr">
-        <label class="mr">
-            <b>Change  Name : </b>
-            <input  [(ngModel)]="hero.name" placeholder="name"/>
-    
-        </label>
+    <h2>{{hero.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{hero.id}}</div>
+    <div>
+      <label>name:
+        <input [(ngModel)]="hero.name" placeholder="name"/>
+      </label>
     </div>
-    
-    <div>      
-        <img class="goldieleft" src="assets/images/{{hero.id}}.jpeg" >
-    
-    </div>
-    
-   
-    </div>
+    <button (click)="goBack()">go back</button>
+  </div>
